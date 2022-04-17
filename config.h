@@ -1,6 +1,6 @@
 #define CMDLENGTH 60
-#define DELIMITER " | "
-#define LEADING_DELIMITER "|"
+#define DELIMITER "  "
+#define LEADING_DELIMITER " "
 #define CLICKABLE_BLOCKS
 
 const Block blocks[] = {
@@ -12,11 +12,16 @@ const Block blocks[] = {
 	//BLOCK("sb-loadavg", 5,    21),
 	//BLOCK("sb-mic",     0,    26),
 	//BLOCK("sb-record",  0,    27),
+	BLOCK("~/.dwm/blocks-scripts/stocks", 600, 14),
 	BLOCK("~/.dwm/blocks-scripts/weather", 1800, 11),
 	BLOCK("~/.dwm/blocks-scripts/internet", 5, 4),
 	BLOCK("~/.dwm/blocks-scripts/volume",  0,    10),
+	//BLOCK("free -h | awk '/^Mem/ { print $3\"/\"$2 }' | sed s/i//g", 5, 0),
 	BLOCK("~/.dwm/blocks-scripts/micstatus",  0,    13),
-	BLOCK("free -h | awk '/^Mem/ { print $3\"/\"$2 }' | sed s/i//g", 5, 0),
+	BLOCK("~/.dwm/blocks-scripts/recording",  0,    9),
+	BLOCK("~/.dwm/blocks-scripts/cpu-temp",  5,    0),
+	BLOCK("~/.dwm/blocks-scripts/cpu-util",  5,    0),
+	BLOCK("~/.dwm/blocks-scripts/memory",  5,    0),
 	BLOCK("~/.dwm/blocks-scripts/clockalt", 5, 12),
 	//BLOCK("sb-battery", 5,    23),
 	//BLOCK("sb-date",    1,    24)
