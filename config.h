@@ -12,6 +12,8 @@ const Block blocks[] = {
 	//BLOCK("sb-loadavg", 5,    21),
 	//BLOCK("sb-mic",     0,    26),
 	//BLOCK("sb-record",  0,    27),
+	BLOCK("~/.dwm/blocks-scripts/change-keyboard", 1, 19),
+	BLOCK("~/.dwm/blocks-scripts/wallpaper", 300, 16),
 	BLOCK("~/.dwm/blocks-scripts/stocks", 600, 14),
 	BLOCK("~/.dwm/blocks-scripts/weather", 1800, 11),
 	BLOCK("~/.dwm/blocks-scripts/internet", 5, 4),
