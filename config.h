@@ -22,7 +22,6 @@ const Block blocks[] = {
 	BLOCK("~/.dwm/blocks-scripts/micstatus",  0,    13),
 	BLOCK("~/.dwm/blocks-scripts/recording",  0,    9),
 //	BLOCK("~/.dwm/blocks-scripts/battery",  60,   15),
-	BLOCK("~/.dwm/blocks-scripts/change-keyboard", 0, 19),
 	BLOCK("~/.dwm/blocks-scripts/cpu-temp",  5,    0),
 	BLOCK("~/.dwm/blocks-scripts/cpu-util",  5,    0),
 	BLOCK("~/.dwm/blocks-scripts/memory",  5,    0),
